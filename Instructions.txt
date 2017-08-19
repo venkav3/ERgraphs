@@ -1,0 +1,8 @@
+1. Algorith creates an Erdos-Renyi graph with specified prob. p, and number of nodes n.  
+Further more assigns a link availability probability for each link.  Also produces another file with random node weights (integers from [1,5]).
+
+2. Command Line arguments:
+    prob.p  # of nodes n 
+
+3. Output file path hardcoded.  To files are produced a) graph with n nodes, sequentially numbered (implicit) 
+but links with uncertainty probabilities in one file and b) random node weights in the second file.
